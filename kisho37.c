@@ -1,22 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-	int i,j,t=0,a[10];
-	printf("enter the number \n");
-	scanf("%d",&a[10]);
-	for(i=0;a[i]=a[10];i++)
-	{
-		scanf("%d",&a[i]);
-	}
-	for(i=0;a[i]=a[10];i++)
-	{
-		for(j=o;a[j]=a[i];j++)
-		{
-		t=a[i];
-		a[j]=a[i];
-		a[j]=t;
-		}
-	}
-	printf("the number is swapped %d",a[i]);
+	int i,j,t=0;
+	printf("enter the first number:\n");
+	scanf("%d",&i);
+	printf("enter the second number:\n");
+	scanf("%d",&j);
+	t=i;
+	i=j;
+	j=t;
+	printf("after swapping %d \n",i);
+	printf("after swapping %d \n",j);
 	return 0;
 }
